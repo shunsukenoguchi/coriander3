@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "277344855704",
+    "project_id": "coriander3-18e71",
+    "storage_bucket": "coriander3-18e71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277344855704:android:faa537a32deda18f1012ed",
+        "android_client_info": {
+          "package_name": "com.example.coriander3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277344855704-g0t9l55594l4f93r8gddl0kgmib38uu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF0SoNRaRxJieU92qDqiMJw8CpX7xjhWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277344855704-g0t9l55594l4f93r8gddl0kgmib38uu4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "277344855704-vfi7q0f1i9df5br4jiqp8b0q6q2gjc3r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coriander3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
