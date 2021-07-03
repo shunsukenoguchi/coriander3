@@ -1,8 +1,12 @@
 import 'package:coriander3/main_model.dart';
+import 'package:coriander3/users_list_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); // ここ大事！
   runApp(MyApp());
 }
 
@@ -33,10 +37,18 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     RaisedButton(
+                      child: Text('ボタン'),
                       onPressed: (){
                         model.changeText();
                       },
-                    )
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => UserListPage()),
+                        );
+                    })
                   ],
                 ),
               );
